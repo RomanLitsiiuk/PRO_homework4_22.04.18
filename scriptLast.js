@@ -21,7 +21,7 @@ function userArrayAction() {
             countEven += 1;
             evenSum += +userArray[i];
         }
-        if (userArray[i] % 2 === 1) {
+        if (userArray[i] % 2 !== 0) {
             countOdd += 1;
             oddCalc *= +userArray[i];
         }
